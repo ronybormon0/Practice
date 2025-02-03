@@ -1,0 +1,33 @@
+/* Boiler plate Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Boiler plate End */
+
+@font-face {
+  font-family: "a";
+  src: url(../Media/font/1.ttf);
+}
+@font-face {
+  font-family: "2";
+  src: url(../Media/font/2.ttf);
+}
+@font-face {
+  font-family: "a";
+  src: url(../Media/font/1.ttf);
+}
+#main {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Page 1 Start  */
