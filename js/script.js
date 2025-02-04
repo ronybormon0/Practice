@@ -12,7 +12,6 @@
 
 // //////////////exampel
 
-
 // function button(color, Size) {
 //   this.width = 12;
 //   this.height = 12;
@@ -25,8 +24,6 @@
 // var buttonstyle2 = new button("green", "30");
 // var buttonstyle3 = new button("black","40");
 
-
-
 // //////////// frist class function
 
 // function abcd(){
@@ -37,13 +34,20 @@
 
 // }
 
+////////// New keyword is blnk object
 
+///////
+// (function () {})();
 
-////////// New keyword is blnk object 
-
-
-
-
-
-
-
+// ///iife
+// var ans = (function () {
+//     var a = 12;
+//     return{
+//         getter:function(){
+//             console.log(a);
+//         },
+//         setter: function(val){
+//             a = val
+//         }
+//     }
+// })()
