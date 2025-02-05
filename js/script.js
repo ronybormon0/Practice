@@ -51,3 +51,29 @@
 //         }
 //     }
 // })()
+
+
+
+
+
+
+
+
+var human ={
+    canfly: false,
+    cantalk: true,
+    canWalk: true,
+    haveEmotion: true
+
+}
+
+
+var sheryanStudent = {
+    canMakeWebsite: true,
+    canMakeApp: true,
+    canMakeGame: true,
+    canMakeMovie: true
+}
+
+
+sheryanStudent.__proto__ = human;
