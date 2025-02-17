@@ -54,26 +54,63 @@
 
 
 
+//crtl +shift +L
 
 
 
 
+// var human ={
+//     canfly: false,
+//     cantalk: true,
+//     canWalk: true,
+//     haveEmotion: true
 
-var human ={
-    canfly: false,
-    cantalk: true,
-    canWalk: true,
-    haveEmotion: true
-
-}
-
-
-var sheryanStudent = {
-    canMakeWebsite: true,
-    canMakeApp: true,
-    canMakeGame: true,
-    canMakeMovie: true
-}
+// }
 
 
-sheryanStudent.__proto__ = human;
+// var sheryanStudent = {
+//     canMakeWebsite: true,
+//     canMakeApp: true,
+//     canMakeGame: true,
+//     canMakeMovie: true
+// }
+
+
+// sheryanStudent.__proto__ = human;
+
+//////call
+
+
+// function abcd(){
+//     console.log(this.age);
+// }
+// var ok ={age:20}
+// abcd.call(ok);
+ 
+
+///////bind
+
+// function abcd(){
+//     console.log(this.age);
+// }
+// var ok ={age:20}
+// var ronyfun = abcd.bind(ok);
+
+// ronyfun();
+
+
+
+// function abcd  (val){
+//     return Math.random()*val;
+// }
+
+// var ans1 = abcd(2)
+// var ans2 = abcd(2)
+
+
+// function abcd(a,b){
+//     return a*b;
+// }
+
+// var ans1 = abcd(1,2)
+// var ans2 = abcd(1,2)
